@@ -1,3 +1,5 @@
+export {};
+
 function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
   return obj[key]; // Error: No index signature with a parameter of type 'string' was found on type '{}'
 }
